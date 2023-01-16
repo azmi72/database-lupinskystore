@@ -7,6 +7,9 @@ import fs from 'fs';
 // const cors = require('cors');
 // const fs = require('fs');
 
+// URL Server Hosting di Cyclic.app
+// https://calm-jade-anemone-cape.cyclic.app/
+
 const entry = express();
 const port = process.env.PORT || 3001;
 
