@@ -8,7 +8,7 @@ import fs from 'fs';
 // const fs = require('fs');
 
 const entry = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 entry.use(cors())
 
